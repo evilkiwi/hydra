@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "workspaces": [
+        "examples/*",
+        "examples/*/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "lerna run build --stream",
+        "prune": "lerna clean && rm -rf node_modules",
+        "hydra": "yarn workspace @tnotifier/hydra"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}
