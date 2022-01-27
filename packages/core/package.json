@@ -26,6 +26,7 @@
         "network",
         "api",
         "client",
+        "twitch",
         "abstract",
         "typescript"
     ],
