@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-xbc",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "@tnotifier/hydra bindings for XSplit Broadcaster",
     "files": [
         "build"
@@ -43,7 +43,7 @@
         "dev": "vite build --watch"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.0.2",
+        "@tnotifier/hydra": "^1.0.3",
         "@tnotifier/xjs": "^1.0.1"
     },
     "devDependencies": {

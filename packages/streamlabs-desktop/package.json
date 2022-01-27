@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-streamlabs-desktop",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "@tnotifier/hydra bindings for Streamlabs Desktop",
     "files": [
         "build"
@@ -43,7 +43,7 @@
         "dev": "vite build --watch"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.0.2",
+        "@tnotifier/hydra": "^1.0.3",
         "nanoevents": "^6.0.2",
         "sockjs-client": "^1.5.2"
     },

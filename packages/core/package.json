@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Network abstracted HTTP/Live API Client",
     "files": [
         "build"

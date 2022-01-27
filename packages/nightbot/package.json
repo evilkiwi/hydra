@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-nightbot",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "@tnotifier/hydra bindings for Nightbot",
     "files": [
         "build"
@@ -42,7 +42,7 @@
         "dev": "vite build --watch"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.0.2",
+        "@tnotifier/hydra": "^1.0.3",
         "axios": "^0.25.0"
     },
     "devDependencies": {
