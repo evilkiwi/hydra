@@ -14,8 +14,6 @@ registerMiddleware('_trovo-auth', Hook.PreFetch, async (payload) => {
             ...(payload.request.headers ?? {}),
             Authorization: `OAuth ${payload.request.access_token}`,
         };
-
-        delete payload.request.access_token;
     }
 
     return payload;
