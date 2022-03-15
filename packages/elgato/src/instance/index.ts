@@ -18,7 +18,7 @@ export const live = {
                 service: id,
                 options,
                 url: 'localhost',
-                port: [1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813,],
+                port: [1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813],
                 secure: false,
             });
 

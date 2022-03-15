@@ -7,6 +7,7 @@ export interface LiveChild<O = unknown> {
     method: string;
     service: string;
     options: O;
+    meta?: unknown;
 }
 
 export interface LiveBase<C = any, E extends EventsMap = DefaultEvents, P = unknown> extends LiveChild {

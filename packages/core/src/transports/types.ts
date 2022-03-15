@@ -5,6 +5,7 @@ import type { LiveBase } from '@/live';
 
 export interface TransportPayload {
     id: string;
+    meta: unknown;
 }
 
 export interface TransportRequestPayload extends TransportPayload {
@@ -27,6 +28,7 @@ export interface TransportLivePayload<C = any, E extends EventsMap = DefaultEven
     name: string;
     service: string;
     options: any;
+    meta: unknown;
     transport: LiveBase<C, E, P>;
 }
 

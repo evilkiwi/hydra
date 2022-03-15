@@ -32,6 +32,7 @@ export const fetch = (service: string) => async <R extends object = {}, D extend
         service,
         request,
         fetch: runFetch,
+        meta: request.meta ?? {},
     });
 
     // Run the post-fetch middleware.
@@ -81,6 +82,7 @@ const runFetch = async <D = any>(payload: IntegrationFetchPayload<D>) => {
     return transport.respond({
         id: payload.id,
         response,
+        meta: payload.request.meta ?? {},
     });
 };
 

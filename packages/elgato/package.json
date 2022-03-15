@@ -11,7 +11,7 @@
     "types": "./build/src/index.d.ts",
     "license": "GPL-3.0-only",
     "author": {
-        "name": "CastHub Limited",
+        "name": "Evil Kiwi Limited",
         "url": "https://tnotifier.app",
         "email": "support@tnotifier.app"
     },
@@ -41,19 +41,21 @@
         "prepack": "yarn build",
         "build": "yarn clean && yarn compile",
         "compile": "vite build",
-        "dev": "vite build --watch"
+        "dev": "vite build --watch",
+        "lint": "eslint --ext .ts,vue --ignore-path .gitignore src"
     },
     "dependencies": {
         "@tnotifier/hydra": "^1.0.3",
-        "axios": "^0.25.0"
+        "axios": "^0.26.1"
     },
     "devDependencies": {
-        "@types/node": "^14.18.9",
+        "@types/node": "^14.18.12",
+        "eslint": "^8.11.0",
         "nanoevents": "^6.0.2",
         "rimraf": "^3.0.2",
         "tslib": "^2.3.1",
-        "typescript": "^4.5.5",
-        "vite": "^2.7.13",
-        "vite-plugin-dts": "^0.9.9"
+        "typescript": "^4.6.2",
+        "vite": "^2.8.6",
+        "vite-plugin-dts": "^0.9.10"
     }
 }

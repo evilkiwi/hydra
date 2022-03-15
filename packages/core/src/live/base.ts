@@ -43,6 +43,7 @@ export const live = async <C = any, E extends EventsMap = DefaultEvents, P = unk
             ...liveInstance,
             ...child(),
             transport: options,
+            meta: options.meta ?? {},
         });
 
         // Run the post-connect middleware.
@@ -62,6 +63,7 @@ export const live = async <C = any, E extends EventsMap = DefaultEvents, P = unk
             ...liveInstance,
             ...child(),
             transport: options,
+            meta: options.meta ?? {},
         });
 
         // Run the post-disconnect middleware.
@@ -81,6 +83,7 @@ export const live = async <C = any, E extends EventsMap = DefaultEvents, P = unk
             ...liveInstance,
             ...child(),
             transport: options,
+            meta: options.meta ?? {},
         }, payload);
 
         // Run the post-send middleware.
@@ -96,7 +99,7 @@ export const live = async <C = any, E extends EventsMap = DefaultEvents, P = unk
 
     const onMessage = (callback: IntegrationLiveCallback<any>) => {
         cb = callback;
-        return () => { cb = undefined };
+        return () => { cb = undefined; };
     };
 
     const process = async (payload: unknown) => {
@@ -112,6 +115,7 @@ export const live = async <C = any, E extends EventsMap = DefaultEvents, P = unk
         await transport.message({
             ...liveInstance,
             transport: options,
+            meta: options.meta ?? {},
         }, payload);
 
         // Run the post-message middleware.
