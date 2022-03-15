@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra-spotify@1.1.0...@tnotifier/hydra-spotify@1.1.1) (2022-03-15)
+
+**Note:** Version bump only for package @tnotifier/hydra-spotify
+
+
+
+
+
 # [1.1.0](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra-spotify@1.0.3...@tnotifier/hydra-spotify@1.1.0) (2022-03-15)
 
 
