@@ -7,7 +7,7 @@ export const fetch = rootFetch(instance.id);
 // Register the Integration with Hydra.
 registerIntegration(instance.id, instance);
 
-// Register the Auth Middleware.
+// Register the Access Token Middleware.
 registerMiddleware('_youtube-auth', Hook.PreFetch, async (payload) => {
     if (payload.request.access_token) {
         payload.request.headers = {
