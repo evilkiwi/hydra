@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-twitch",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "@tnotifier/hydra bindings for Twitch",
     "files": [
         "build"
@@ -44,7 +44,7 @@
     },
     "dependencies": {
         "@gamestdio/websocket": "^0.3.2",
-        "@tnotifier/hydra": "^1.0.3",
+        "@tnotifier/hydra": "^1.1.0",
         "axios": "^0.26.1"
     },
     "devDependencies": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra-twitch@1.0.3...@tnotifier/hydra-twitch@1.1.0) (2022-03-15)
+
+
+### Features
+
+* added eslint and meta option ([60c820e](https://github.com/tnotifier/hydra/commit/60c820e6c53250cdf3d35925a269e2142e2e89cf))
+
+
+
+
+
 ## 1.0.3 (2022-01-27)
 
 **Note:** Version bump only for package @tnotifier/hydra-twitch
