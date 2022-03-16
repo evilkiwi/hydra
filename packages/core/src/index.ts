@@ -10,4 +10,5 @@ export * from './fetch';
 export * from './helpers';
 export * from './integrations';
 export * from './live';
+export * from './logger';
 export * from './types';
