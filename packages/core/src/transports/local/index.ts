@@ -2,15 +2,15 @@ import type { Transport } from '@/transports';
 
 export const local: Transport = {
     request: async ({ id, service, request, fetch }) => {
-        const response = await fetch({ id, service, request });
-
-        if (response instanceof Error) {
-            throw response;
+        return fetch({ id, service, request });
+    },
+    respond: async (payload) => {
+        if (payload.response instanceof Error) {
+            throw payload.response;
         }
 
-        return response;
+        return payload.response.response;
     },
-    respond: async ({ response }) => response,
     connect: async (instance) => instance.transport.connect(instance),
     message: async ({ cb }, payload) => {
         const callback = cb();

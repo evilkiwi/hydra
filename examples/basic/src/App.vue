@@ -9,7 +9,6 @@
 </template>
 
 <script lang="ts" setup>
-    import type { IntegrationLiveInstance } from '@tnotifier/hydra';
     import { Hook, registerMiddleware } from '@tnotifier/hydra';
     import { fetch, live } from '@tnotifier/hydra-twitch';
     import { Service } from '@tnotifier/sdk';
@@ -36,7 +35,6 @@
         loading.value = true;
 
         try {
-            // Can make the request as intended - but everything will happen in the parent!
             const response = await fetch<any>({
                 method: 'GET',
                 url: 'helix/games/top',
@@ -51,8 +49,6 @@
         loading.value = false;
     };
 
-    let instance!: IntegrationLiveInstance<any, any, any>;
-
     const connectPubsub = async () => {
         if (loading.value) {
             return;
@@ -61,7 +57,7 @@
         loading.value = true;
 
         try {
-            const pubsub = instance = await live().pubsub({
+            const pubsub = await live().pubsub({
                 id: 'hello-world',
             });
 

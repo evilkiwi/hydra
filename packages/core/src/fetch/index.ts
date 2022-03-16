@@ -10,7 +10,7 @@ import { logger } from '@/logger';
 import { Hook } from '@/enums';
 import type { FetchRequest } from './types';
 
-export const fetch = (service: string) => async <R extends object = {}, D extends object = {}>(request: FetchRequest<D>, once = false): Promise<R> => {
+export const fetch = (service: string) => async <R extends object = {}, D extends object = {}>(request: FetchRequest<D>, isRerun = false): Promise<R> => {
     if (!integrations[`${service}`] || !integrations[`${service}`].http) {
         throw new Error(`service "${service}" does not support fetch`);
     }
@@ -18,7 +18,7 @@ export const fetch = (service: string) => async <R extends object = {}, D extend
     // Generate a unique request ID.
     const id = request.id ?? uuid();
 
-    logger.debug(`starting request \`${id}\``);
+    logger.debug(`${isRerun ? 're-running' : 'starting'} request \`${id}\``);
 
     // Run the pre-fetch middleware.
     const preFetch = await runMiddleware(Hook.PreFetch, { id, service, request });
@@ -26,8 +26,7 @@ export const fetch = (service: string) => async <R extends object = {}, D extend
 
     // Run the request via the active transport.
     const transport = useTransport();
-
-    const { statusCode, response } = await transport.request({
+    const response = await transport.request({
         id,
         service,
         request,
@@ -41,14 +40,18 @@ export const fetch = (service: string) => async <R extends object = {}, D extend
         service,
         request,
         response,
-        statusCode,
     });
 
-    if (output.rerun && !once) {
+    // Only allow up to 1 re-run for a request.
+    if (output.rerun && !isRerun) {
         return fetch(service)(output.request, true);
     }
 
-    return response as R;
+    return transport.respond({
+        id,
+        response: output.response,
+        meta: request.meta ?? {},
+    }) as R;
 };
 
 const runFetch = async <D = any>(payload: IntegrationFetchPayload<D>) => {
@@ -58,7 +61,6 @@ const runFetch = async <D = any>(payload: IntegrationFetchPayload<D>) => {
         throw new Error(`service "${payload.service}" does not support http`);
     }
 
-    const transport = useTransport();
     let response: Error|TransportRequestResponse = new Error('unknown error');
 
     try {
@@ -79,11 +81,7 @@ const runFetch = async <D = any>(payload: IntegrationFetchPayload<D>) => {
         }
     }
 
-    return transport.respond({
-        id: payload.id,
-        response,
-        meta: payload.request.meta ?? {},
-    });
+    return response;
 };
 
 export * from './types';

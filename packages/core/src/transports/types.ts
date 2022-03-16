@@ -33,8 +33,8 @@ export interface TransportLivePayload<C = any, E extends EventsMap = DefaultEven
 }
 
 export interface Transport<C = any, E extends EventsMap = DefaultEvents, P = unknown> {
-    request?: (payload: TransportRequestPayload) => Promise<TransportRequestResponse>;
-    respond?: (payload: TransportResponsePayload) => Promise<TransportRequestResponse|Error>;
+    request?: (payload: TransportRequestPayload) => Promise<TransportRequestResponse|Error>;
+    respond?: (payload: TransportResponsePayload) => Promise<unknown>;
     connect?: (instance: TransportLivePayload<C, E, P>) => Promise<void>;
     message?: (instance: TransportLivePayload<C, E, P>, payload: unknown) => Promise<void>;
     send?: (instance: TransportLivePayload<C, E, P>, payload: P) => Promise<void>;

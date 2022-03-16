@@ -1,3 +1,4 @@
+import type { TransportRequestResponse } from '@/transports';
 import type { FetchRequest } from '@/fetch';
 import type { Hook } from '@/enums';
 
@@ -22,8 +23,7 @@ export interface MiddlewarePayload<P = unknown> {
         id: string;
         service: string;
         request: FetchRequest;
-        statusCode: number;
-        response: unknown;
+        response: TransportRequestResponse|Error;
         rerun?: boolean;
     };
     [Hook.PreLiveConnect]: {};
