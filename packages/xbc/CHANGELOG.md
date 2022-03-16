@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra-xbc@1.1.0...@tnotifier/hydra-xbc@1.1.1) (2022-03-16)
+
+**Note:** Version bump only for package @tnotifier/hydra-xbc
+
+
+
+
+
 # [1.1.0](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra-xbc@1.0.3...@tnotifier/hydra-xbc@1.1.0) (2022-03-15)
 
 

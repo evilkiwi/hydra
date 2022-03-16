@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra@1.1.0...@tnotifier/hydra@1.1.1) (2022-03-16)
+
+
+### Bug Fixes
+
+* **core:** don't respond to a fetch before potentially re-running ([8354ad9](https://github.com/tnotifier/hydra/commit/8354ad9cea41830e3016695abe97f20fd47c6d67))
+
+
+
+
+
 # [1.1.0](https://github.com/tnotifier/hydra/compare/@tnotifier/hydra@1.0.3...@tnotifier/hydra@1.1.0) (2022-03-15)
 
 
