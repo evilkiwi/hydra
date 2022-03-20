@@ -10,11 +10,9 @@ export interface LiveChild<O = unknown> {
     meta?: unknown;
 }
 
-export type LiveOptionsBase = {
-    id: string;
+export interface LiveOptions {
+    id?: string;
 }
-
-export type LiveOptions = LiveOptionsBase;
 
 export interface LiveBase<C = any, E extends EventsMap = DefaultEvents, P = unknown> extends LiveChild {
     connect: (instance: IntegrationLiveInstance<C, E, P>) => Promise<void>;

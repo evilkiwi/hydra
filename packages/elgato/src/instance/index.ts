@@ -1,18 +1,20 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { jsonRpc, singleton } from '@tnotifier/hydra';
+import { jsonRpc, singleton, rand } from '@tnotifier/hydra';
 import type { WSOptions } from '@/types';
 
 export const id = 'ELGATO_CONTROL_CENTER';
 
 export const live = {
     ws: async (options: WSOptions) => {
+        const liveId = `${options.id ?? rand(1, 1000000)}`;
+
         return singleton({
-            instance_id: options.id,
+            instance_id: liveId,
             service: id,
             method: 'ws',
         }, async () => {
             const instance = await jsonRpc({
-                id: options.id,
+                id: liveId,
                 name: 'elgato/ws',
                 method: 'ws',
                 service: id,

@@ -1,4 +1,4 @@
-import { singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@tnotifier/hydra';
 import axios from 'axios';
 import type { WSOptions } from '@/types';
 import { socketio } from '@/socket';
@@ -11,8 +11,10 @@ export const http = axios.create({
 
 export const live = {
     ws: async (options: WSOptions) => {
+        const liveId = `${options.id ?? rand(1, 1000000)}`;
+
         return singleton({
-            instance_id: options.id,
+            instance_id: liveId,
             service: id,
             method: 'ws',
         }, async () => {
@@ -37,7 +39,7 @@ export const live = {
             }
 
             const instance = await socketio({
-                id: options.id,
+                id: liveId,
                 name: 'streamlabs/ws',
                 method: 'ws',
                 service: id,

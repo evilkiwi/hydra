@@ -1,4 +1,4 @@
-import { singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@tnotifier/hydra';
 import type { XJSOptions } from '@/types';
 import { xbc } from '@/socket';
 
@@ -6,13 +6,15 @@ export const id = 'XSPLIT_BROADCASTER';
 
 export const live = {
     xjs: async (options: XJSOptions) => {
+        const liveId = `${options.id ?? rand(1, 1000000)}`;
+
         return singleton({
-            instance_id: options.id,
+            instance_id: liveId,
             service: id,
             method: 'xjs',
         }, async () => {
             const instance = await xbc({
-                id: options.id,
+                id: liveId,
                 name: 'xbc/xjs',
                 method: 'xjs',
                 service: id,

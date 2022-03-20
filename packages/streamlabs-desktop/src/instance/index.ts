@@ -1,5 +1,5 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@tnotifier/hydra';
 import type { WSOptions } from '@/types';
 import { sockjs } from '@/socket';
 
@@ -7,13 +7,15 @@ export const id = 'STREAMLABS_OBS';
 
 export const live = {
     ws: async (options: WSOptions) => {
+        const liveId = `${options.id ?? rand(1, 1000000)}`;
+
         return singleton({
-            instance_id: options.id,
+            instance_id: liveId,
             service: id,
             method: 'ws',
         }, async () => {
             const instance = await sockjs({
-                id: options.id,
+                id: liveId,
                 name: 'streamlabs-desktop/ws',
                 method: 'ws',
                 service: id,

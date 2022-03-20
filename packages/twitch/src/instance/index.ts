@@ -1,5 +1,5 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { singleton, ws, ping } from '@tnotifier/hydra';
+import { singleton, ws, ping, rand } from '@tnotifier/hydra';
 import axios from 'axios';
 import type { PubSubOptions, TwitchEvents } from '@/types';
 
@@ -11,13 +11,15 @@ export const http = axios.create({
 
 export const live = {
     pubsub: async (options: PubSubOptions) => {
+        const liveId = `${options.id ?? rand(1, 1000000)}`;
+
         return singleton({
-            instance_id: options.id,
+            instance_id: liveId,
             service: id,
             method: 'pubsub',
         }, async () => {
             const instance = await ws<TwitchEvents>({
-                id: options.id,
+                id: liveId,
                 name: 'twitch/pub-sub',
                 method: 'pubsub',
                 service: id,
