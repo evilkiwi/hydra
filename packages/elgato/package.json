@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-elgato",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "@tnotifier/hydra bindings for Elgato Control Center",
     "files": [
         "build"
@@ -45,7 +45,7 @@
         "lint": "eslint --ext .ts,vue --ignore-path .gitignore src"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.1.4",
+        "@tnotifier/hydra": "^1.1.5",
         "axios": "^0.26.1"
     },
     "devDependencies": {

@@ -1,6 +1,6 @@
 {
     "name": "@tnotifier/hydra-streamlabs",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "@tnotifier/hydra bindings for Streamlabs",
     "files": [
         "build"
@@ -43,7 +43,7 @@
         "lint": "eslint --ext .ts,vue --ignore-path .gitignore src"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.1.4",
+        "@tnotifier/hydra": "^1.1.5",
         "axios": "^0.26.1",
         "nanoevents": "^6.0.2",
         "socket.io-client": "^2.4.0"
