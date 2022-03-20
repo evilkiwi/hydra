@@ -10,6 +10,10 @@ export interface LiveChild<O = unknown> {
     meta?: unknown;
 }
 
+export interface LiveOptions {
+    id: string;
+}
+
 export interface LiveBase<C = any, E extends EventsMap = DefaultEvents, P = unknown> extends LiveChild {
     connect: (instance: IntegrationLiveInstance<C, E, P>) => Promise<void>;
     send: (instance: IntegrationLiveInstance<C, E, P>, payload: P) => Promise<void>;

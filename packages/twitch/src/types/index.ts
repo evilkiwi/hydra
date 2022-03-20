@@ -1,8 +1,8 @@
+import type { LiveOptions } from '@tnotifier/hydra';
 import type { EventsMap } from 'nanoevents';
 import type { live } from '@/instance';
 
-export interface PubSubOptions {
-    id: string;
+export interface PubSubOptions extends LiveOptions {
     ping?: boolean;
 }
 
