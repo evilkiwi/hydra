@@ -1,4 +1,4 @@
-import { registerMiddleware, Hook, registerIntegration, fetch as rootFetch } from '@tnotifier/hydra';
+import { registerMiddleware, Hook, registerIntegration, fetch as rootFetch } from '@evilkiwi/hydra';
 import * as instance from './instance';
 
 // Create and export the helper functions.

@@ -1,8 +1,8 @@
-import type { IntegrationLiveInstance, JsonRpcPayload } from '@tnotifier/hydra';
+import type { IntegrationLiveInstance, JsonRpcPayload } from '@evilkiwi/hydra';
 import type { EventsMap, DefaultEvents } from 'nanoevents';
 import Client from 'sockjs-client/dist/sockjs.min.js';
 import type WebSocket from '@gamestdio/websocket';
-import { jsonRpc } from '@tnotifier/hydra';
+import { jsonRpc } from '@evilkiwi/hydra';
 import type { WSOptions } from '@/types';
 import type { SockJSOptions } from './types';
 

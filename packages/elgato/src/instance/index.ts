@@ -1,5 +1,5 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { jsonRpc, singleton, rand } from '@tnotifier/hydra';
+import { jsonRpc, singleton, rand } from '@evilkiwi/hydra';
 import type { WSOptions } from '@/types';
 
 export const id = 'ELGATO_CONTROL_CENTER';

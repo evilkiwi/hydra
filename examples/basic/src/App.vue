@@ -9,8 +9,8 @@
 </template>
 
 <script lang="ts" setup>
-    import { Hook, registerMiddleware } from '@tnotifier/hydra';
-    import { fetch, live } from '@tnotifier/hydra-twitch';
+    import { Hook, registerMiddleware } from '@evilkiwi/hydra';
+    import { fetch, live } from '@evilkiwi/hydra-twitch';
     import { Service } from '@tnotifier/sdk';
     import { ref } from 'vue';
 

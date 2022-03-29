@@ -1,5 +1,5 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { singleton, ws, ping, rand } from '@tnotifier/hydra';
+import { singleton, ws, ping, rand } from '@evilkiwi/hydra';
 import axios from 'axios';
 import type { PubSubOptions, TwitchEvents } from '@/types';
 

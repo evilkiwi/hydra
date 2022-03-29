@@ -1,4 +1,4 @@
-import { rand, singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@evilkiwi/hydra';
 import axios from 'axios';
 import type { WSOptions } from '@/types';
 import { socketio } from '@/socket';

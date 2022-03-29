@@ -1,4 +1,4 @@
-import { registerIntegration, live as rootLive, fetch as rootFetch } from '@tnotifier/hydra';
+import { registerIntegration, live as rootLive, fetch as rootFetch } from '@evilkiwi/hydra';
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
 import type { ElgatoLive } from './types';
 import * as instance from './instance';

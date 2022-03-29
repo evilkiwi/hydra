@@ -4,7 +4,7 @@
         "dev": "vite"
     },
     "devDependencies": {
-        "@tnotifier/hydra": "*",
+        "@evilkiwi/hydra": "*",
         "@tnotifier/sdk": "*",
         "@vitejs/plugin-vue": "^2.2.4",
         "@vue/compiler-sfc": "^3.2.31",

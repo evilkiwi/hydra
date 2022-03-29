@@ -1,7 +1,7 @@
 {
-    "name": "@tnotifier/hydra-obs",
+    "name": "@evilkiwi/hydra-obs",
     "version": "1.1.5",
-    "description": "@tnotifier/hydra bindings for OBS Studio",
+    "description": "@evilkiwi/hydra bindings for OBS Studio",
     "files": [
         "build"
     ],
@@ -12,16 +12,16 @@
     "license": "GPL-3.0-only",
     "author": {
         "name": "Evil Kiwi Limited",
-        "url": "https://tnotifier.app",
-        "email": "support@tnotifier.app"
+        "url": "https://evil.kiwi",
+        "email": "support@evil.kiwi"
     },
-    "homepage": "https://github.com/tnotifier/hydra",
+    "homepage": "https://github.com/evilkiwi/hydra",
     "bugs": {
-        "url": "https://github.com/tnotifier/hydra/issues"
+        "url": "https://github.com/evilkiwi/hydra/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tnotifier/hydra.git"
+        "url": "git+https://github.com/evilkiwi/hydra.git"
     },
     "keywords": [
         "network",
@@ -44,8 +44,8 @@
         "lint": "eslint --ext .ts,vue --ignore-path .gitignore src"
     },
     "dependencies": {
-        "@tnotifier/hydra": "^1.1.5",
-        "@tnotifier/obs": "^1.0.5"
+        "@evilkiwi/hydra": "^1.1.5",
+        "@evilkiwi/obs": "^1.0.5"
     },
     "devDependencies": {
         "@types/node": "^14.18.12",

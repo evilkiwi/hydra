@@ -1,7 +1,7 @@
-import type { IntegrationLiveInstance } from '@tnotifier/hydra';
+import type { IntegrationLiveInstance } from '@evilkiwi/hydra';
 import type { EventsMap, DefaultEvents } from 'nanoevents';
-import { createLive } from '@tnotifier/hydra';
-import { obs as ws } from '@tnotifier/obs';
+import { createLive } from '@evilkiwi/hydra';
+import { obs as ws } from '@evilkiwi/obs';
 import type { Instance, OBSOptions, OBSPayload } from './types';
 
 export const obs = async <E extends EventsMap = DefaultEvents>(options: OBSOptions) => {

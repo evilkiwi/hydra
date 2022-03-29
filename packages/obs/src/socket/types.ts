@@ -1,5 +1,5 @@
-import type { obs, Options } from '@tnotifier/obs';
-import type { LiveChild } from '@tnotifier/hydra';
+import type { obs, Options } from '@evilkiwi/obs';
+import type { LiveChild } from '@evilkiwi/hydra';
 import type { PromiseType } from 'utility-types';
 
 export interface OBSOptions extends LiveChild<Options> {

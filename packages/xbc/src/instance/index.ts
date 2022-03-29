@@ -1,4 +1,4 @@
-import { rand, singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@evilkiwi/hydra';
 import type { XJSOptions } from '@/types';
 import { xbc } from '@/socket';
 

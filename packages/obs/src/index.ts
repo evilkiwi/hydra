@@ -1,4 +1,4 @@
-import { registerIntegration, live as rootLive } from '@tnotifier/hydra';
+import { registerIntegration, live as rootLive } from '@evilkiwi/hydra';
 import * as instance from './instance';
 import type { OBSLive } from './types';
 

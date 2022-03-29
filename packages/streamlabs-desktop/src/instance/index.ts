@@ -1,5 +1,5 @@
 import type WebSocketClient from '@gamestdio/websocket'; // Fixes type inference
-import { rand, singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@evilkiwi/hydra';
 import type { WSOptions } from '@/types';
 import { sockjs } from '@/socket';
 

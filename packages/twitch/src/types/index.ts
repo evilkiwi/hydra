@@ -1,4 +1,4 @@
-import type { LiveOptions } from '@tnotifier/hydra';
+import type { LiveOptions } from '@evilkiwi/hydra';
 import type { EventsMap } from 'nanoevents';
 import type { live } from '@/instance';
 

@@ -1,8 +1,8 @@
-import type { IntegrationLiveInstance } from '@tnotifier/hydra';
+import type { IntegrationLiveInstance } from '@evilkiwi/hydra';
 import type { EventsMap, DefaultEvents } from 'nanoevents';
-import type { Subscription } from '@tnotifier/xjs';
-import { createLive } from '@tnotifier/hydra';
-import { xjs as ws } from '@tnotifier/xjs';
+import type { Subscription } from '@evilkiwi/xjs';
+import { createLive } from '@evilkiwi/hydra';
+import { xjs as ws } from '@evilkiwi/xjs';
 import type { Instance, XBCOptions, XBCPayload } from './types';
 
 export const xbc = async <E extends EventsMap = DefaultEvents>(options: XBCOptions) => {

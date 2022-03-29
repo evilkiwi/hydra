@@ -1,6 +1,6 @@
 import type { EventsMap, DefaultEvents } from 'nanoevents';
 import type { Socket } from 'socket.io-client';
-import { createLive } from '@tnotifier/hydra';
+import { createLive } from '@evilkiwi/hydra';
 import io from 'socket.io-client';
 import type { SocketIOOptions } from './types';
 

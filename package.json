@@ -9,7 +9,7 @@
         "build": "lerna run build --stream",
         "lint": "lerna run lint --stream",
         "prune": "lerna clean && rm -rf node_modules",
-        "hydra": "yarn workspace @tnotifier/hydra"
+        "hydra": "yarn workspace @evilkiwi/hydra"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.14.0",

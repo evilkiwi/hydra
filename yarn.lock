@@ -149,6 +149,266 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@evilkiwi/embed@npm:*":
+  version: 1.0.25
+  resolution: "@evilkiwi/embed@npm:1.0.25"
+  dependencies:
+    "@evilkiwi/logger": ^1.0.4
+    nanoevents: ^6.0.2
+  checksum: d695e3b02ce17bef17cc2bd35d80d314f117421bb11a76cac402d0100ae0ea275d55ab3c51cc70eb67c951887b5a189c50ac59c0171537e687f72847cac1db5b
+  languageName: node
+  linkType: hard
+
+"@evilkiwi/hydra-discord@workspace:packages/discord":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-discord@workspace:packages/discord"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-elgato@workspace:packages/elgato":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-elgato@workspace:packages/elgato"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    nanoevents: ^6.0.2
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-nightbot@workspace:packages/nightbot":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-nightbot@workspace:packages/nightbot"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-obs@workspace:packages/obs":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-obs@workspace:packages/obs"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/obs": ^1.0.5
+    "@types/node": ^14.18.12
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    utility-types: ^3.10.0
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-spotify@workspace:packages/spotify":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-spotify@workspace:packages/spotify"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-streamlabs-desktop@workspace:packages/streamlabs-desktop":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-streamlabs-desktop@workspace:packages/streamlabs-desktop"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    "@types/sockjs-client": ^1.5.1
+    eslint: ^8.11.0
+    nanoevents: ^6.0.2
+    rimraf: ^3.0.2
+    sockjs-client: ^1.6.0
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-streamlabs@workspace:packages/streamlabs":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-streamlabs@workspace:packages/streamlabs"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    "@types/socket.io-client": ^1.4.36
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    nanoevents: ^6.0.2
+    rimraf: ^3.0.2
+    socket.io-client: ^2.4.0
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-tipeeestream@workspace:packages/tipeeestream":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-tipeeestream@workspace:packages/tipeeestream"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-trovo@workspace:packages/trovo":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-trovo@workspace:packages/trovo"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-twitch@workspace:packages/twitch":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-twitch@workspace:packages/twitch"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@gamestdio/websocket": ^0.3.2
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-xbc@workspace:packages/xbc":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-xbc@workspace:packages/xbc"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/xjs": ^1.0.3
+    "@types/node": ^14.18.12
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    utility-types: ^3.10.0
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra-youtube@workspace:packages/youtube":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra-youtube@workspace:packages/youtube"
+  dependencies:
+    "@evilkiwi/hydra": ^1.1.5
+    "@types/node": ^14.18.12
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/hydra@*, @evilkiwi/hydra@^1.1.5, @evilkiwi/hydra@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@evilkiwi/hydra@workspace:packages/core"
+  dependencies:
+    "@evilkiwi/logger": "*"
+    "@gamestdio/websocket": ^0.3.2
+    "@types/node": ^14.18.12
+    "@types/uuid": ^8.3.4
+    axios: ^0.26.1
+    eslint: ^8.11.0
+    nanoevents: ^6.0.2
+    rimraf: ^3.0.2
+    tslib: ^2.3.1
+    typescript: ^4.6.2
+    uuid: ^8.3.2
+    vite: ^2.8.6
+    vite-plugin-dts: ^0.9.10
+    ws: ^8.5.0
+  languageName: unknown
+  linkType: soft
+
+"@evilkiwi/logger@npm:*, @evilkiwi/logger@npm:^1.0.4":
+  version: 1.0.5
+  resolution: "@evilkiwi/logger@npm:1.0.5"
+  checksum: 33d7e0e059dcbb4442e05a4e3f2ff3e367bbd891a37790844dd9ba9ff93e09ca2a8c43f5c2207326177a58f70c8e06f714eaae8878860958a417bed14f43cc51
+  languageName: node
+  linkType: hard
+
+"@evilkiwi/obs@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@evilkiwi/obs@npm:1.0.5"
+  dependencies:
+    "@aws-crypto/sha256-browser": ^2.0.1
+    "@evilkiwi/logger": ^1.0.4
+    nanoevents: ^6.0.2
+  checksum: 60096ebcbab9b9add9f460e8d4a21f1dd38bee630c0fd15fc86eebd664095ac091dbddafbb4e835d65a3e293b05e2df0f4335c57b339bbb28d1aa597ba791749
+  languageName: node
+  linkType: hard
+
+"@evilkiwi/xjs@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@evilkiwi/xjs@npm:1.0.3"
+  dependencies:
+    "@evilkiwi/logger": ^1.0.4
+    nanoevents: ^6.0.2
+  checksum: a5a7e1f50a135e5b764048e7dc4e328a995f2fac1035b3eb45d931906da36f7bc2043c7230e27c33fbabc5f31606054535c17254765202d5c9ba2cc8f88f26e4
+  languageName: node
+  linkType: hard
+
 "@gamestdio/websocket@npm:^0.3.2":
   version: 0.3.2
   resolution: "@gamestdio/websocket@npm:0.3.2"
@@ -1225,256 +1485,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tnotifier/embed@npm:*":
-  version: 1.0.25
-  resolution: "@tnotifier/embed@npm:1.0.25"
-  dependencies:
-    "@tnotifier/logger": ^1.0.4
-    nanoevents: ^6.0.2
-  checksum: e7f70e719892a047cb4e309ebbc9309a71dab5fb3fe66e5c2ff7bb741aff5ba26c2c10ec7b3789d6552b74649c95c27c57ff65e922ba07663325b410743ecf19
-  languageName: node
-  linkType: hard
-
-"@tnotifier/hydra-discord@workspace:packages/discord":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-discord@workspace:packages/discord"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-elgato@workspace:packages/elgato":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-elgato@workspace:packages/elgato"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    nanoevents: ^6.0.2
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-nightbot@workspace:packages/nightbot":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-nightbot@workspace:packages/nightbot"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-obs@workspace:packages/obs":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-obs@workspace:packages/obs"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@tnotifier/obs": ^1.0.5
-    "@types/node": ^14.18.12
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    utility-types: ^3.10.0
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-spotify@workspace:packages/spotify":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-spotify@workspace:packages/spotify"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-streamlabs-desktop@workspace:packages/streamlabs-desktop":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-streamlabs-desktop@workspace:packages/streamlabs-desktop"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    "@types/sockjs-client": ^1.5.1
-    eslint: ^8.11.0
-    nanoevents: ^6.0.2
-    rimraf: ^3.0.2
-    sockjs-client: ^1.6.0
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-streamlabs@workspace:packages/streamlabs":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-streamlabs@workspace:packages/streamlabs"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    "@types/socket.io-client": ^1.4.36
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    nanoevents: ^6.0.2
-    rimraf: ^3.0.2
-    socket.io-client: ^2.4.0
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-tipeeestream@workspace:packages/tipeeestream":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-tipeeestream@workspace:packages/tipeeestream"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-trovo@workspace:packages/trovo":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-trovo@workspace:packages/trovo"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-twitch@workspace:packages/twitch":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-twitch@workspace:packages/twitch"
-  dependencies:
-    "@gamestdio/websocket": ^0.3.2
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-xbc@workspace:packages/xbc":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-xbc@workspace:packages/xbc"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@tnotifier/xjs": ^1.0.3
-    "@types/node": ^14.18.12
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    utility-types: ^3.10.0
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra-youtube@workspace:packages/youtube":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra-youtube@workspace:packages/youtube"
-  dependencies:
-    "@tnotifier/hydra": ^1.1.4
-    "@types/node": ^14.18.12
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/hydra@*, @tnotifier/hydra@^1.1.4, @tnotifier/hydra@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@tnotifier/hydra@workspace:packages/core"
-  dependencies:
-    "@gamestdio/websocket": ^0.3.2
-    "@tnotifier/logger": "*"
-    "@types/node": ^14.18.12
-    "@types/uuid": ^8.3.4
-    axios: ^0.26.1
-    eslint: ^8.11.0
-    nanoevents: ^6.0.2
-    rimraf: ^3.0.2
-    tslib: ^2.3.1
-    typescript: ^4.6.2
-    uuid: ^8.3.2
-    vite: ^2.8.6
-    vite-plugin-dts: ^0.9.10
-    ws: ^8.5.0
-  languageName: unknown
-  linkType: soft
-
-"@tnotifier/logger@npm:*, @tnotifier/logger@npm:^1.0.4":
-  version: 1.0.5
-  resolution: "@tnotifier/logger@npm:1.0.5"
-  checksum: 857aba438bf741efe05077bd6f5071e29872ea6ad9d298c8cf6c553eb1b6f5661f31e350b2349e60616c18474c6985610b80480b3631b23f41d797fba68a7bae
-  languageName: node
-  linkType: hard
-
-"@tnotifier/obs@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@tnotifier/obs@npm:1.0.5"
-  dependencies:
-    "@aws-crypto/sha256-browser": ^2.0.1
-    "@tnotifier/logger": ^1.0.4
-    nanoevents: ^6.0.2
-  checksum: 714112e0990d612906a25204c0b30128955a32d73694d22e6e8f9570eb1283ba6e1a1b65cf550e6ac70e2b60b9c443271c3de96ffded3eaab8d728158173f516
-  languageName: node
-  linkType: hard
-
 "@tnotifier/sdk@npm:*":
   version: 1.0.50
   resolution: "@tnotifier/sdk@npm:1.0.50"
@@ -1483,16 +1493,6 @@ __metadata:
     graphql-request: ^4.1.0
     graphql-tag: ^2.12.6
   checksum: 8ed3ec0a8323630b9374e469ba372ea4472f60219c7c6aeb621e0c05dc4b7a7cd0b9195b28b9960ea945fc673f8581c0e3e922a378642e92fe1f63c05ae5f52c
-  languageName: node
-  linkType: hard
-
-"@tnotifier/xjs@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@tnotifier/xjs@npm:1.0.3"
-  dependencies:
-    "@tnotifier/logger": ^1.0.4
-    nanoevents: ^6.0.2
-  checksum: 76a564ab5a97c8847dd480d0d0175d274131faad6c06fa0f6c01783914ed39df85e5bf31aed842737800378cab237079378db39f05fa92374bf2309e259e0846
   languageName: node
   linkType: hard
 
@@ -2140,7 +2140,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "basic-3cea2e@workspace:examples/basic"
   dependencies:
-    "@tnotifier/hydra": "*"
+    "@evilkiwi/hydra": "*"
     "@tnotifier/sdk": "*"
     "@vitejs/plugin-vue": ^2.2.4
     "@vue/compiler-sfc": ^3.2.31
@@ -2346,8 +2346,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "child-1ad546@workspace:examples/embed/child"
   dependencies:
-    "@tnotifier/embed": "*"
-    "@tnotifier/hydra": "*"
+    "@evilkiwi/embed": "*"
+    "@evilkiwi/hydra": "*"
     "@tnotifier/sdk": "*"
     "@vitejs/plugin-vue": ^2.2.4
     "@vue/compiler-sfc": ^3.2.31
@@ -5939,8 +5939,8 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "parent-1d7685@workspace:examples/embed/parent"
   dependencies:
-    "@tnotifier/embed": "*"
-    "@tnotifier/hydra": "*"
+    "@evilkiwi/embed": "*"
+    "@evilkiwi/hydra": "*"
     "@tnotifier/sdk": "*"
     "@vitejs/plugin-vue": ^2.2.4
     "@vue/compiler-sfc": ^3.2.31

@@ -1,4 +1,4 @@
-import { registerIntegration, live as rootLive } from '@tnotifier/hydra';
+import { registerIntegration, live as rootLive } from '@evilkiwi/hydra';
 import type { XBCLive } from './types';
 import * as instance from './instance';
 

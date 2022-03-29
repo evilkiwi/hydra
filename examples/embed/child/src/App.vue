@@ -9,14 +9,14 @@
 </template>
 
 <script lang="ts" setup>
-    import type { PromiseRegistry, TransportResponsePayload, IntegrationLiveInstance } from '@tnotifier/hydra';
-    import { registerTransport, setTransport } from '@tnotifier/hydra';
-    import { live, fetch } from '@tnotifier/hydra-twitch';
-    import { useEmbed } from '@tnotifier/embed';
+    import type { PromiseRegistry, TransportResponsePayload, IntegrationLiveInstance } from '@evilkiwi/hydra';
+    import { registerTransport, setTransport } from '@evilkiwi/hydra';
+    import { live, fetch } from '@evilkiwi/hydra-twitch';
+    import { useEmbed } from '@evilkiwi/embed';
     import { Service } from '@tnotifier/sdk';
     import { ref } from 'vue';
 
-    import '@tnotifier/hydra-twitch';
+    import '@evilkiwi/hydra-twitch';
 
     // Set-up Embed for communication.
     const { post, events, send } = useEmbed('client', {

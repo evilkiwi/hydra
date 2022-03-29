@@ -9,10 +9,10 @@
 </template>
 
 <script lang="ts" setup>
-    import { buildId, Hook, registerMiddleware, registerTransport, setTransport } from '@tnotifier/hydra';
-    import type { IntegrationLiveInstance, TransportRequestPayload, LiveChild } from '@tnotifier/hydra';
-    import { fetch, live } from '@tnotifier/hydra-twitch';
-    import { useEmbed } from '@tnotifier/embed';
+    import { buildId, Hook, registerMiddleware, registerTransport, setTransport } from '@evilkiwi/hydra';
+    import type { IntegrationLiveInstance, TransportRequestPayload, LiveChild } from '@evilkiwi/hydra';
+    import { fetch, live } from '@evilkiwi/hydra-twitch';
+    import { useEmbed } from '@evilkiwi/embed';
     import { Service } from '@tnotifier/sdk';
     import { ref } from 'vue';
 

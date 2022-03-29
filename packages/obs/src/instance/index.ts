@@ -1,4 +1,4 @@
-import { rand, singleton } from '@tnotifier/hydra';
+import { rand, singleton } from '@evilkiwi/hydra';
 import type { WSOptions } from '@/types';
 import { obs } from '@/socket';
 

@@ -1,4 +1,4 @@
-import { registerMiddleware, Hook, registerIntegration, live as rootLive, fetch as rootFetch } from '@tnotifier/hydra';
+import { registerMiddleware, Hook, registerIntegration, live as rootLive, fetch as rootFetch } from '@evilkiwi/hydra';
 import type { StreamlabsLive } from './types';
 import * as instance from './instance';
 
