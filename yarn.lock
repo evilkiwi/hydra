@@ -163,7 +163,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-discord@workspace:packages/discord"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -179,7 +179,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-elgato@workspace:packages/elgato"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -196,7 +196,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-nightbot@workspace:packages/nightbot"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -212,7 +212,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-obs@workspace:packages/obs"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@evilkiwi/obs": ^1.0.5
     "@types/node": ^14.18.12
     eslint: ^8.11.0
@@ -229,7 +229,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-spotify@workspace:packages/spotify"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -245,7 +245,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-streamlabs-desktop@workspace:packages/streamlabs-desktop"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     "@types/sockjs-client": ^1.5.1
     eslint: ^8.11.0
@@ -263,7 +263,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-streamlabs@workspace:packages/streamlabs"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     "@types/socket.io-client": ^1.4.36
     axios: ^0.26.1
@@ -282,7 +282,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-tipeeestream@workspace:packages/tipeeestream"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -298,7 +298,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-trovo@workspace:packages/trovo"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -314,7 +314,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-twitch@workspace:packages/twitch"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@gamestdio/websocket": ^0.3.2
     "@types/node": ^14.18.12
     axios: ^0.26.1
@@ -331,7 +331,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-xbc@workspace:packages/xbc"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@evilkiwi/xjs": ^1.0.3
     "@types/node": ^14.18.12
     eslint: ^8.11.0
@@ -348,7 +348,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra-youtube@workspace:packages/youtube"
   dependencies:
-    "@evilkiwi/hydra": ^1.1.5
+    "@evilkiwi/hydra": ^1.2.0
     "@types/node": ^14.18.12
     axios: ^0.26.1
     eslint: ^8.11.0
@@ -360,7 +360,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@evilkiwi/hydra@*, @evilkiwi/hydra@^1.1.5, @evilkiwi/hydra@workspace:packages/core":
+"@evilkiwi/hydra@*, @evilkiwi/hydra@^1.2.0, @evilkiwi/hydra@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@evilkiwi/hydra@workspace:packages/core"
   dependencies:
