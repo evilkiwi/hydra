@@ -1,6 +1,6 @@
 {
     "name": "@evilkiwi/hydra",
-    "version": "1.1.5",
+    "version": "1.2.0",
     "description": "Network abstracted HTTP/Live API Client",
     "files": [
         "build"

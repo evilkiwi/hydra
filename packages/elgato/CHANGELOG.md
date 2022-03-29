@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2022-03-29)
+
+
+### Features
+
+* added eslint and meta option ([60c820e](https://github.com/evilkiwi/hydra/commit/60c820e6c53250cdf3d35925a269e2142e2e89cf))
+
+
+
+
+
 ## [1.1.5](https://github.com/evilkiwi/hydra/compare/@evilkiwi/hydra-elgato@1.1.4...@evilkiwi/hydra-elgato@1.1.5) (2022-03-20)
 
 **Note:** Version bump only for package @evilkiwi/hydra-elgato

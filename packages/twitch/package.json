@@ -1,6 +1,6 @@
 {
     "name": "@evilkiwi/hydra-twitch",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "description": "@evilkiwi/hydra bindings for Twitch",
     "files": [
         "build"
@@ -43,7 +43,7 @@
         "lint": "eslint --ext .ts,vue --ignore-path .gitignore src"
     },
     "dependencies": {
-        "@evilkiwi/hydra": "^1.1.5",
+        "@evilkiwi/hydra": "^1.2.0",
         "@gamestdio/websocket": "^0.3.2",
         "axios": "^0.26.1"
     },
